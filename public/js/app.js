@@ -6,7 +6,6 @@ function pythag() {
 
 function factorial() {
     var num = parseFloat($('#num').val());
-    console.log(num);
     var val = 1;
     for (var i = 2; i <= num; i++)
         val = val * i;
